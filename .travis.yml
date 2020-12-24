@@ -1,3 +1,11 @@
 language: node_js
 node_js:
   - 15
+deploy:
+  provider: heroku
+  github_token: $GITHUB_TOKEN
+  api_key:
+    secure: $HEROKU_TOKEN
+  app: coffee-break-frontend
+  on:
+    repo: arnabbiswas2303/Coffee-Break-Frontend
