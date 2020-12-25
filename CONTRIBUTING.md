@@ -17,10 +17,10 @@ Inorder to create a pull request follow the steps given below.
 While making new components follow the below folder structure.
 
 ```bash
-  ├── src/                       
+  ├── src/
   │   ├── Components/
-  │     ├── Outter Component/  
-  |       ├── Inner Component/
+  │     ├── Outter Component/
+  │       ├── Inner Component/
 ```
 
 ## Styleguide

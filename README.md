@@ -69,10 +69,6 @@ To get a local copy up and running follow these simple example steps.
   ```sh
   npm install npm@latest -g
   ```
-- create-react-app
-  ```sh
-  npm i create-react-app
-  ```
 
 ### Installation
 
