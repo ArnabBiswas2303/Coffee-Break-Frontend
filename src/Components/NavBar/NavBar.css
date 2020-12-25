@@ -1,0 +1,20 @@
+.NavBar {
+  width: 100vw;
+  height: 7vh;
+  background-color: rgb(122, 85, 85);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.NavLinks {
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.NavBar .NavLinks a {
+  color: white;
+  text-decoration: none;
+}
