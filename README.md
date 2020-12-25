@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <p align="center">
   <a href="https://github.com/ArnabBiswas2303/Coffee-Break-Frontend">
-    <img src="assets/images/logo" alt="Logo" width="80" height="80">
+    <img src="assets/images/logo.svg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Coffee Break Client</h3>
@@ -75,6 +75,7 @@ To get a local copy up and running follow these simple example steps.
   ```
 
 ### Installation
+
 1. Fork the repo
 2. Clone the repo
    ```sh
@@ -88,7 +89,7 @@ To get a local copy up and running follow these simple example steps.
    ```sh
    npm run
    ```
-Go to `localhost:3000` to view the app.
+   Go to `localhost:3000` to view the app.
 
 <!-- CONTRIBUTING -->
 
@@ -115,4 +116,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 
 Arnab Biswas - [LinkedIn](https://www.linkedin.com/in/arnab-biswas-2303/)
-
