@@ -60,7 +60,6 @@ This project is project developed for coffee break sikkim. The client side appli
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
