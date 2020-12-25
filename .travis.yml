@@ -9,5 +9,3 @@ deploy:
   app: coffee-break-frontend
   on:
     repo: arnabbiswas2303/Coffee-Break-Frontend
-script:
-  - 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then bash ./travis/run_on_pull_requests; fi'
