@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.aboutUs {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: pink;
+  display: flex;
+
+  justify-content: center;
+}
+
+.aboutContent {
+  background-color: red;
+  width: 50%;
+}
+
+.aboutImg {
+  width: 50%;
+  background-color: aqua;
+  background-image: url("../../assets/icons/coffeeCup.svg");
+  background-repeat: no-repeat;
+}
