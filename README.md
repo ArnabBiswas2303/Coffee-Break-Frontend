@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <p align="center">
   <a href="https://github.com/ArnabBiswas2303/Coffee-Break-Frontend">
-    <img src="assets/images/logo.svg" alt="Logo" width="150" height="150">
+    <img src="src/assets/images/logo.svg" alt="Logo" width="150" height="150">
   </a>
 
   <h3 align="center">Coffee Break Client</h3>
