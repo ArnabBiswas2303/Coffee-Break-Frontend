@@ -50,6 +50,7 @@ export default function WriteUs() {
     if (details.message === "") {
       err.message = "*Please enter a valid message";
     }
+    console.log(process.env.REACT_APP_MAP_ACCESS_TOKEN);
   };
   return (
     <Fragment>

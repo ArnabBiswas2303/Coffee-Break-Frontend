@@ -1,7 +1,6 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState, useEffect } from "react";
 import classes from "./Location.module.css";
-import map from "../../../assets/images/coffeemap.png";
-
+import MapboxGLMap from "../Map/Map"; //Import the map component
 export default function Location() {
   return (
     <Fragment>
@@ -11,29 +10,19 @@ export default function Location() {
         </div>
         <div className={classes["l-div"]}>
           <div className={classes["l-info"]}>
-            <h2>Address</h2>
+            <h2 className={classes["l-h"]}>Address</h2>
             <div className={classes["l-para"]}>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
+              Coffee Break | Majhitar, Rangpo 737132, India
             </div>
-            <h2>Phone</h2>
+            <h2 className={classes["l-h"]}>Phone</h2>
             <div className={classes["l-para"]}>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
+              Tel: +91 123456789 Fax: +91 123123123
             </div>
-            <h2>Email</h2>
-            <div className={classes["l-para"]}>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
-            </div>
+            <h2 className={classes["l-h"]}>Email</h2>
+            <div className={classes["l-para"]}>coffeebreak@gmail.com</div>
           </div>
-          <div className={classes["l-image"]}>
-            {" "}
-            <div
-              className={classes["l-map"]}
-              style={{ backgroundImage: `url(${map})` }}
-            ></div>
-          </div>
+
+          <MapboxGLMap className={classes["l-map"]} />
         </div>
       </div>
     </Fragment>
