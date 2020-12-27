@@ -42,6 +42,12 @@
   width: 300px;
   height: 100%;
 }
+.l-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
 .l-para {
   width: 100%;
   word-wrap: break-word;
@@ -61,6 +67,7 @@
   letter-spacing: 1.05px;
   color: #000000;
   font-family: MyRegular;
+  display: inline-block;
 }
 @media only screen and (max-width: 911px) {
   .location {
