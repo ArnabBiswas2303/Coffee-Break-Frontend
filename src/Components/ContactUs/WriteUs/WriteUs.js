@@ -49,6 +49,7 @@ export default function WriteUs() {
     }
     if (details.message === "") {
       err.message = "*Please enter a valid message";
+      seterrors(err);
     }
   };
   return (
