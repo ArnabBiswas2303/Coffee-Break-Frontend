@@ -21,7 +21,6 @@ export default function AboutUs() {
           asking.
         </p>
       </div>
-      <div className={classes.aboutImg}></div>
     </div>
   );
 }

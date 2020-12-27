@@ -1,6 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;700&family=Roboto:wght@500;900&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -11,46 +12,36 @@
   position: fixed;
   width: 100%;
   height: 100%;
-
   display: flex;
-
-  justify-content: center;
+  bottom:0px;
+  background-image: url("../../assets/images/coffeeMan.svg");
+  background-position: right;
+  background-repeat: no-repeat;
 }
 
 .aboutContent {
   display: flex;
   flex-direction: column;
-
+  padding: 170px;
   width: 50%;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 150px;
-  line-height: 1.8;
+  line-height: 2;
   font-weight: bold;
-  color: rgb(122, 85, 85);
 }
 
 .aboutContent h1 {
+  color: #48321d;
   line-height: 2.5;
   font-size: 40px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
+  font-family: "Roboto Slab", serif;
+ 
 }
 
 .aboutContent p {
-  font-family: "Mulish", sans-serif;
-  font-size: 12.8px;
-  font-weight: 700;
-  color: rgb(122, 85, 85);
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 12px;
+  color: #707070;
 }
-.aboutImg {
-  width: 50%;
-  justify-content: center;
-  background-position: right 5px;
-  background-image: url("../../assets/images/coffeeMan.svg");
-  background-size: 550px;
-  background-repeat: no-repeat;
-  align-items: center;
-  text-align: center;
-}
+
