@@ -1,0 +1,88 @@
+@font-face {
+  src: url("../../../assets/fonts/Neo-Sans-Std-Bold/Neo\ Sans\ Std\ Bold.otf");
+  font-family: MyBold;
+}
+@font-face {
+  src: url("../../../assets/fonts/Neo-Sans-Std-Regular/Neo\ Sans\ Std\ Regular.otf");
+  font-family: MyRegular;
+}
+@font-face {
+  src: url("../../../assets/fonts/Neo-Sans-Std-Light/Neo\ Sans\ Std\ Light.otf");
+  font-family: MyLight;
+}
+.location {
+  width: 47vw;
+  height: 100vh;
+  font-family: MyBold;
+}
+
+.l-heading {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  padding-top: 1vw;
+}
+.l-h-text {
+  font-size: 3rem;
+  color: #48321d;
+  letter-spacing: 0px;
+}
+.l-div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin-top: 100px;
+}
+.l-image {
+  width: 300px;
+  height: 100%;
+}
+.l-info {
+  width: 300px;
+  height: 100%;
+}
+.l-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+.l-para {
+  width: 100%;
+  word-wrap: break-word;
+  font-family: MyLight;
+  letter-spacing: 0.6px;
+  color: #000000;
+  opacity: 0.7;
+}
+.l-map {
+  width: 220px;
+  margin-top: 20px;
+  margin-left: 40px;
+  height: 350px;
+  background-size: contain;
+}
+.l-h {
+  letter-spacing: 1.05px;
+  color: #000000;
+  font-family: MyRegular;
+  display: inline-block;
+}
+@media only screen and (max-width: 911px) {
+  .location {
+    width: 75vw;
+    margin-top: 100px;
+  }
+  .l-heading {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding-left: 0%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .location {
+    width: 80vw;
+  }
+}

@@ -1,0 +1,164 @@
+@font-face {
+  src: url("../../../assets/fonts/Neo-Sans-Std-Bold/Neo\ Sans\ Std\ Bold.otf");
+  font-family: MyBold;
+}
+@font-face {
+  src: url("../../../assets/fonts/Neo-Sans-Std-Regular/Neo\ Sans\ Std\ Regular.otf");
+  font-family: MyRegular;
+}
+@font-face {
+  src: url("../../../assets/fonts/Neo-Sans-Std-Light/Neo\ Sans\ Std\ Light.otf");
+  font-family: MyLight;
+}
+.writeus {
+  width: 42vw;
+  height: 100vh;
+  position: relative;
+  font-family: MyBold;
+}
+.wu-heading {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  padding-left: 3.5vw;
+  padding-top: 1vw;
+}
+.wu-h-text {
+  font-size: 3rem;
+  color: #48321d;
+  letter-spacing: 0px;
+}
+.wu-form {
+  padding: 4vw;
+  position: relative;
+}
+.wu-input-1 {
+  position: relative;
+  height: 40px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  width: 90%;
+  margin-bottom: 30px;
+  padding: 10px;
+  outline: none;
+  border-radius: 2px !important;
+  font-family: "Noto Sans JP", sans-serif;
+  transition: border 100ms ease-in;
+  font-family: MyRegular;
+}
+.wu-input-1:focus {
+  border-radius: 2px !important;
+  border: 0.5px solid black;
+  box-shadow: none;
+}
+.wu-input-2 {
+  position: relative;
+  height: 40px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  width: 90%;
+  margin-bottom: 30px;
+  padding: 10px;
+  outline: none;
+  border-radius: 2px !important;
+  font-family: MyRegular;
+  transition: border 100ms ease-in;
+}
+.wu-input-2:focus {
+  border-radius: 2px !important;
+  border: 0.5px solid black;
+  box-shadow: none;
+}
+.wu-messege {
+  position: relative;
+  height: 100px;
+  border-radius: 4px !important;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  width: 90%;
+  margin-bottom: 20px;
+  padding: 10px;
+  outline: none;
+  resize: none;
+  font-family: MyRegular;
+}
+.wu-messege:focus {
+  border-radius: 2px !important;
+  border: 0.5px solid black;
+  box-shadow: none;
+}
+.wu-input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+.wu-submit {
+  color: white;
+  background-color: black;
+  position: absolute;
+  display: block;
+  right: 13%;
+  padding: 15px;
+  width: 130px;
+  outline: none;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+  border: none;
+  font-family: MyRegular;
+}
+.wu-error p {
+  color: red !important;
+  font-size: 15px;
+  font-family: MyLight;
+}
+.wu-bean {
+  position: relative;
+  background-size: contain !important;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-bottom: 50px !important;
+  width: 150px !important;
+  height: 150px !important;
+}
+@media only screen and (max-width: 910px) {
+  .writeus {
+    width: 75vw;
+  }
+  .wu-input {
+    height: 30px;
+  }
+  .wu-heading {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding-left: 0%;
+  }
+  .wu-bean {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .writeus {
+    width: 90vw;
+  }
+  .wu-input {
+    height: 30px;
+  }
+  .wu-heading {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding-left: 0%;
+  }
+  .wu-submit {
+    width: 100px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .writeus {
+    width: 100vw;
+  }
+  .wu-input {
+    padding: 6px;
+    padding-left: 10px;
+  }
+}
