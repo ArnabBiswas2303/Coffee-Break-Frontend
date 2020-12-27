@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
 .writeus {
-  width: 500px;
+  width: 42vw;
   height: 100vh;
   position: relative;
+  font-family: "Noto Sans JP", sans-serif;
 }
 .wu-heading {
   position: relative;
@@ -11,82 +13,137 @@
   padding-top: 1vw;
 }
 .wu-h-text {
-  font-size: 40px;
+  font-size: 2.6rem;
 }
 .wu-form {
   padding: 4vw;
   position: relative;
 }
-.wu-input {
+.wu-input-1 {
   position: relative;
   height: 40px;
   border: none;
-  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   width: 90%;
   margin-bottom: 30px;
   padding: 10px;
   outline: none;
-  border-radius: 4px;
+  border-radius: 2px !important;
+  font-family: "Noto Sans JP", sans-serif;
+  transition: border 100ms ease-in;
 }
-.wu-input:focus {
-  outline: 0.5px solid lightgrey;
+.wu-input-1:focus {
+  border-radius: 2px !important;
+  border: 0.5px solid black;
+  box-shadow: none;
+}
+.wu-input-2 {
+  position: relative;
+  height: 40px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  width: 90%;
+  margin-bottom: 30px;
+  padding: 10px;
+  outline: none;
+  border-radius: 2px !important;
+  font-family: "Noto Sans JP", sans-serif;
+  transition: border 100ms ease-in;
+}
+.wu-input-2:focus {
+  border-radius: 2px !important;
+  border: 0.5px solid black;
+  box-shadow: none;
 }
 .wu-messege {
   position: relative;
   height: 100px;
-  border-radius: 4px;
+  border-radius: 4px !important;
   border: none;
-  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   width: 90%;
   margin-bottom: 20px;
   padding: 10px;
   outline: none;
+  resize: none;
+  font-family: "Noto Sans JP", sans-serif;
 }
 .wu-messege:focus {
-  outline: 0.5px solid lightgrey;
+  border-radius: 2px !important;
+  border: 0.5px solid black;
+  box-shadow: none;
+}
+.wu-input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
 }
 .wu-submit {
   color: white;
   background-color: black;
   position: absolute;
   display: block;
-  right: 22%;
+  right: 12%;
   padding: 15px;
-  width: 100px;
+  width: 150px;
   outline: none;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
   border: none;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.wu-error p {
+  color: red !important;
+  font-size: 15px;
 }
 .wu-bean {
   position: relative;
   background-size: contain !important;
   background-repeat: no-repeat;
-  margin-top: 40px;
-  margin-left: 10px;
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-bottom: 50px !important;
   width: 150px !important;
   height: 150px !important;
 }
-@media only screen and (max-width: 800px) {
-  .wu-submit {
-    right: 15%;
-  }
-  .wu-bean {
-    margin-left: 30px;
-  }
-}
-@media only screen and (max-width: 500px) {
-  .wu-form {
-    padding: 8vw;
-  }
-  .wu-heading {
-    padding-left: 8vw;
+@media only screen and (max-width: 910px) {
+  .writeus {
+    width: 75vw;
   }
   .wu-input {
     height: 30px;
-    width: 100%;
   }
-  .wu-messege {
+  .wu-heading {
+    position: relative;
     width: 100%;
+    text-align: center;
+    padding-left: 0%;
+  }
+  .wu-bean {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .writeus {
+    width: 90vw;
+  }
+  .wu-input {
+    height: 30px;
+  }
+  .wu-heading {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding-left: 0%;
+  }
+  .wu-submit {
+    width: 100px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .writeus {
+    width: 100vw;
+  }
+  .wu-input {
+    padding: 6px;
+    padding-left: 10px;
   }
 }

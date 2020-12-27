@@ -1,17 +1,21 @@
 import React, { Fragment, useState } from "react";
 import classes from "./Writeus.module.css";
 import coffeebeans from "../../../assets/icons/coffeeBeans.svg";
+
 export default function WriteUs() {
+  //Form details
   const [details, setdetails] = useState({
     name: "",
     email: "",
     message: "",
   });
+  //Error object
   const [errors, seterrors] = useState({
     name: "",
     email: "",
     message: "",
   });
+  //Input on change
   const onchange = (e) => {
     setdetails({ ...details, [e.target.name]: e.target.value });
     seterrors({ ...errors, [e.target.name]: "" });
@@ -30,10 +34,12 @@ export default function WriteUs() {
       email: "",
       message: "",
     };
+    //Validations
     if (details.name === "") {
       err.name = "*Please enter a valid name";
       seterrors(err);
     }
+    //Email reg expressions
     var pattern = new RegExp(
       /^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i
     );

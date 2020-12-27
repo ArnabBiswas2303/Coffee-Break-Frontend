@@ -1,4 +1,57 @@
 .location {
-  width: 500px;
+  width: 47vw;
   height: 100vh;
+  font-family: "Noto Sans JP", sans-serif !important;
+}
+
+.l-heading {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  padding-top: 1vw;
+}
+.l-h-text {
+  font-size: 2.6rem;
+}
+.l-div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+.l-image {
+  width: 300px;
+  height: 100%;
+}
+.l-info {
+  width: 300px;
+  height: 100%;
+}
+.l-para {
+  width: 100%;
+  color: grey;
+  word-wrap: break-word;
+}
+.l-map {
+  width: 220px;
+  margin-top: 20px;
+  margin-left: 40px;
+  height: 350px;
+  background-size: contain;
+}
+@media only screen and (max-width: 911px) {
+  .location {
+    width: 75vw;
+  }
+  .l-heading {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding-left: 0%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .location {
+    width: 80vw;
+  }
 }
