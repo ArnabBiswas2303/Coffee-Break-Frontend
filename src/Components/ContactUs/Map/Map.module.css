@@ -1,0 +1,25 @@
+.map {
+  width: 220px;
+  margin-top: 20px;
+  margin-left: 40px;
+  height: 350px;
+  background-size: contain;
+  border: none;
+  outline: none;
+}
+@media only screen and (max-width: 1200px) {
+  .map {
+    margin-left: 0px;
+  }
+}
+@media only screen and (max-width: 910px) {
+  .map {
+    margin-left: 100px;
+  }
+}
+@media only screen and (max-width: 825px) {
+  .map {
+    margin-left: 0px;
+    width: 100%;
+  }
+}
